@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  margin: 30px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  margin: 0 20px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#hero {
+  margin-top: 90px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero h4 {
+  color: #999;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.hero p {
+  color: #666;
+  font-family: Source Serif Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+
+.hero h3 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#tatar {
+  margin-top: 70px;
+}
+.tata {
+  display: flex;
+  gap: 20px;
+}
+
+.tatar1 {
+  width: 410px;
+  height: 482px;
+}
+.tatar1 img {
+  margin: 20px 0;
+}
+
+.tatar1 h3 {
+  color: #999;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tatar1 h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+.tatar1 h4 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tete {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+#linia {
+  margin: 70px 0 100px 0;
+}
+
+.pap {
+  color: #999;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.point {
+  display: flex;
+  gap: 20px;
+}
+.point1 {
+  width: 309px;
+  height: 390px;
+  /* background: aqua; */
+}
+
+.point1 h4 {
+  color: #999;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.point1 h1 {
+  color: #000;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.point1 h3 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.pointt {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.paint button {
+  color: #000;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 205px;
+  height: 54px;
+  border: 1px solid #000;
+  background: #fff;
+  margin: 100px 0;
+  margin-left: 485px;
+}
+
+.lin {
+  margin-bottom: 100px;
+}
+
+.haha {
+  margin-bottom: 30px;
+}
+.chan {
+  display: flex;
+  gap: 20px;
+}
+.chan1 {
+  width: 610px;
+  height: 568px;
+  /* background: aqua; */
+}
+
+.chan1 img {
+  margin: 20px 0;
+}
+
+.chan1 h4 {
+  color: #999;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#footer {
+  margin-top: 70px;
+}
+.footer {
+  width: 1200px;
+  background: #141414;
+  height: 620px;
+}
+.chan1 h1 {
+  color: #000;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 16px 0;
+  letter-spacing: 1px;
+}
+.chan1 h3 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.dad {
+  display: flex;
+  align-items: flex-end;
+  margin: 90px 0 0 120px;
+}
+.dad h4 {
+  margin: 90px 0 0 15px;
+  color: #666;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.faf {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+.lan {
+  margin-top: 60px;
+}
+.faf h3 {
+  color: #666;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navr {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 120px;
+  width: 80%;
+}
+.navb {
+  display: flex;
+}
+.navr a {
+  color: #fff;
+  /* font-size: 14px; */
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.kal {
+  display: flex;
+  margin-left: 120px;
+  width: 37%;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+.kal h4 {
+  color: #666;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.cal {
+  margin-left: 120px;
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.cal a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}

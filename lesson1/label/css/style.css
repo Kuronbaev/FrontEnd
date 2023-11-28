@@ -1,0 +1,19 @@
+label {
+  display: block;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, font-size 0.2s ease; /* Анимация изменения цвета и размера */
+}
+
+/* При нажатии на label, меняем цвет фона */
+label:active {
+  background-color: #008cba;
+}
+
+/* При нажатии на label, увеличиваем размер шрифта */
+label:active {
+  font-size: 18px;
+}

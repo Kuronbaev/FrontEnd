@@ -1,0 +1,134 @@
+header {
+  background: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.logo-menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Подставьте нужную ширину для вашего логотипа */
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header-button {
+  padding: 10px 20px;
+  background-color: #777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header-button:hover {
+  background-color: #555;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list li {
+  margin-left: 20px;
+}
+
+.menu-list li:first-child {
+  /* margin-left: 0; */
+}
+
+.menu-list li h3 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu-list li a:hover {
+  color: #ffcc00;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+/* Меню на мобильных устройствах */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .menu-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-list.active {
+    display: flex;
+    animation: slideIn 0.3s;
+  }
+
+  .menu-list ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-top: 20px;
+  }
+}

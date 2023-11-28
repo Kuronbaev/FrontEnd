@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+a {
+  text-decoration: 0;
+}
+body {
+  background-color: #fff; /* Цвет фона для светлого режима */
+  color: #333; /* Цвет текста для светлого режима */
+  /* Дополнительные стили для вашего контента */
+}
+
+/* Стили для dark mode */
+body.dark-mode {
+  background-color: #111; /* Цвет фона для темного режима */
+  color: #f0f0f0; /* Цвет текста для темного режима */
+  /* Дополнительные стили для вашего контента в темном режиме */
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+/* header */
+#header {
+  margin-top: 27px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: var(--color-01, #0600ae);
+  font-size: 36px;
+  font-weight: 700;
+}
+.header h1 span {
+  color: var(--black-1, #474747);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.header-nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.header-nav button {
+  margin-left: 12px;
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  background: var(--color-02, #1f39ba);
+  color: var(--color-05, #fff);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.header-nav a {
+  transition: width 0.3s ease-in-out;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: #007bff; /* Цвет текста ссылки (можно заменить на свой) */
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* Псевдоэлемент для создания анимации линии */
+.animated-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0; /* Изначально линия будет невидимой */
+  height: 2px; /* Толщина линии (можно изменить по своему усмотрению) */
+  background-color: #007bff; /* Цвет линии (можно заменить на свой) */
+  transform-origin: center; /* Центрируем линию относительно своего центра */
+  transition: width 0.3s ease-in-out; /* Анимация по ширине */
+}
+
+/* Анимация при наведении курсора */
+.animated-link:hover::after {
+  width: 100%; /* Линия станет видимой и займет всю ширину ссылки */
+  transform: translateX(-50%); /* Смещаем линию налево на 50% своей ширины */
+}
+
+/* Стили для анимации при наведении курсора */
+.header-nav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #007bff; /* Цвет фона кнопки (можно заменить на свой) */
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s; /* Длительность анимации */
+}
+
+/* Анимация "тряски" при наведении курсора */
+.shaking-button:hover {
+  animation: shakeAnimation 0.5s infinite;
+}
+
+@keyframes shakeAnimation {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+/* header */
+/* section  start */
+.enjoy {
+  display: flex;
+  align-items: flex-end;
+  gap: 37px;
+}
+.life {
+  margin-top: 172px;
+}
+.enjoy img {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  right: 230px;
+}
+.life h3 {
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.life h1 {
+  color: var(--black-1, #474747);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px; /* 133.333% */
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+.life h1 span {
+  color: var(--color-02, #1f39ba);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.life p {
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.uzn {
+  left: 300px;
+  top: 600px;
+  position: absolute;
+  padding: 0px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 970px;
+  height: 101px;
+  border-radius: 16px;
+  border: 0px solid var(--black-3, #cacaca);
+  background: #fafafb;
+}
+.uzn1 input {
+  width: 167px;
+  height: 38px;
+  border-radius: 8px;
+  background: var(--color-05, #fff);
+  border: 0;
+}
+.uzn h3 {
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.custom-input {
+  border: 0;
+  width: 167px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--color-05, #fff);
+}
+.uzn1 select {
+  border: 0;
+  width: 70px;
+  height: 38px;
+  border-radius: 8px;
+  background: var(--color-05, #fff);
+}
+.uzn button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--color-05, #fff);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  background: var(--color-01, #0600ae);
+}
+.uzn button ion-icon {
+  width: 16px;
+  height: 16px;
+}
+/* section  end */
+/* eiler start */
+.custom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#custom {
+  margin-top: 400px;
+}
+.custom-txt h3 {
+  color: var(--black-1, #474747);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.custom-txt h1 {
+  margin: 14px 0;
+  color: var(--black-1, #474747);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px; /* 144.444% */
+}
+.eiler {
+  margin-top: 14px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+.ei1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ei2 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.custom-txt a {
+  color: var(--black-1, #474747);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.custom-txt button {
+  color: var(--color-05, #fff);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  background: var(--color-02, #1f39ba);
+}
+/* eiler end */
+/* serv start */
+#serv {
+  margin-top: 120px;
+}
+.serc {
+  text-align: center;
+}
+.serc h3 {
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.serc h1 {
+  margin-top: 11px;
+  margin-bottom: 14px;
+  color: var(--black-1, #474747);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px; /* 144.444% */
+}
+.serc p {
+  margin-bottom: 50px;
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.sblog1 {
+  text-align: center;
+}
+.sblog1 {
+  width: 270px;
+  height: 388px;
+  border-radius: 0px 0px 50px 50px;
+  background: #fafaff;
+}
+.sblog1 img {
+  margin-top: 36.2px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.sblog1 h1 {
+  margin: 20px 0;
+  color: var(--black-1, #474747);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px; /* 146.154% */
+}
+.sblog1 p {
+  color: var(--black-2, #666);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-bottom: 38px;
+}
+.sblog1 a {
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.sblog1 a ion-icon {
+  font-size: 20px;
+}
+.serv-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sblog1:hover {
+  border-radius: 0px 0px 50px 50px;
+  background: #fafaff;
+  box-shadow: 0px 2px 20px 4px #d8d8d8;
+}
+.sblog1 a:hover {
+  color: var(--color-02, #1f39ba);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+/* serv end */
+/* best start */
+.best-txt {
+  text-align: center;
+}
+.best-txt h3 {
+  color: var(--black-1, #474747);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.best-blogs {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  gap: 30px;
+}
+.best-txt h1 {
+  margin: 14px 0;
+  color: var(--black-1, #474747);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px; /* 144.444% */
+}
+.best-txt p {
+  margin-bottom: 50px;
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.bblog1 {
+  width: 270px;
+  height: 502px;
+}
+.bblog1 h1 {
+  margin-top: 17px;
+  margin-bottom: 14px;
+  color: var(--black-1, #474747);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bblog1 h1 span {
+  color: var(--color-01, #db6300);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+.bblog1 p {
+  color: var(--black-2, #666);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.bstar {
+  display: flex;
+  gap: 10px;
+}
+.bstar a {
+  font-size: 20px;
+  margin-top: 13px;
+  margin-bottom: 32px;
+  color: #eeaa2b;
+}
+.bstar h4 {
+  margin-top: 13px;
+  color: var(--black-3, #cacaca);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.bblog1 button {
+  color: var(--color-05, #fff);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  border-radius: 10px;
+  background: var(--color-02, #1f39ba);
+  width: 170px;
+  height: 50px;
+}
+/* best end */

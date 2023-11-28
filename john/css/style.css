@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1152px;
+  margin: 0 auto;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+/* header */
+.header a {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#header {
+  padding-top: 25px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+/* header */
+/* hello */
+#hello {
+  margin-top: 150px;
+}
+.hello-nav {
+  color: var(--dark-color, #21243d);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+.hello-nav p {
+  color: var(--dark-color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 40px 0;
+  line-height: normal;
+}
+.hello-nav button {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background: var(--primary, #ff6464);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.hello {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hello img {
+  width: 300px;
+  height: 300px;
+}
+
+/* hello */
+/* hero */
+#hero {
+  padding-top: 7px;
+  padding-bottom: 32px;
+  background: #edf7fa;
+  margin-top: 70px;
+}
+.post h1 {
+  color: var(--dark-color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px; /* 272.727% */
+}
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post a {
+  color: var(--secondry, #00a8cc);
+  font-size: 16px;
+  font-weight: 400;
+}
+.making {
+  width: 418px;
+  height: 295px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.making h2 {
+  color: var(--dark-color, #21243d);
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 23px;
+}
+.making h3 {
+  color: var(--dark-color, #21243d);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0;
+  margin-left: 23px;
+}
+.making p {
+  color: var(--dark-color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 23px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* hero */

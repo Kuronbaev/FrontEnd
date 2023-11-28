@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+    background-position: center;
+    /* font-size: 100px; */
+    /* font-family: sans-serif; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    /* font-weight: 100; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    /* margin-top: 100px; */
+    /* margin-bottom: 200px; */
+    /* margin-right: 200px; */
+    /* margin-left: 200px; */
+    /* margin: 200px; */
+    /* margin: 500px 200px 300px 100px; */
+    /* padding: 100px; */
+
+
+
+}
+
+button {
+    background: linear-gradient(40deg, red , blue, pink, black, aqua, purple, orange, green, brown, yellow);
+    /* background: red; */
+    padding: 50px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: oblique;
+    margin: 200px;
+    font-size: 100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    margin-left: 400px;
+}

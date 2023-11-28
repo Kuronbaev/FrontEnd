@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 115px;
+}
+
+.headernav a {
+  margin: 0 20px;
+  color: var(--ffffff, #fff);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btns {
+  border-radius: 5px;
+  background: var(--3-a-68-b-8, #3a68b8);
+  display: inline-flex;
+  padding: 15px 30px 27px 30px;
+  gap: 10px;
+  width: 122px;
+  height: 47px;
+  color: var(--ffffff, #fff);
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin: 126px 0 0 0;
+}
+
+.heronav h3 {
+  color: var(--3-a-68-b-8, #3a68b8);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.heronav h1 {
+  color: var(--ffffff, #fff);
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 130%;
+  margin: 8px 0 40px 0;
+}
+
+.heronav p {
+  color: var(--ffffff, #fff);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.heronav button {
+  border-radius: 5px;
+  background: var(--3-a-68-b-8, #3a68b8);
+  color: var(--ffffff, #fff);
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  margin: 50px 0 0 0;
+}
+
+.bbb {
+  width: 171px;
+  height: 57px;
+
+}
+
+.bibi {
+  width: 217px;
+  height: 57px;
+  ma;
+}
+
+.imgm {
+  margin: 0 0 0 40px;
+}
+
+.jojoj {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 200px 0 0 0;
+}
+.dal {
+  display: flex;
+  align-items: center;
+  margin: 200px 0 0 0;
+}
+.dala {
+  margin: 0 0 0 50px;
+}
+.dala h1 {
+  color: var(--ffffff, #FFF);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.dala p {
+  color: var(--ffffff, #FFF);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  margin: 33px 0 53px 0;
+}
+
+.dala button {
+  border-radius: 5px;
+  background: var(--3-a-68-b-8, #3A68B8);
+  color: var(--ffffff, #FFF);
+  font-size: 16px;
+  font-weight: 600;
+  width: 150px;
+  height: 52px;
+  border: none;
+}
+.block {
+  width: 412px;
+  height: 417px;
+  border-radius: 10px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, #FFF 100%);
+backdrop-filter: blur(100px);
+
+}
+
+.blockbir h1 {
+  color: var(--ffffff, #FFF);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.blockbir p {
+  color: var(--ffffff, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+}
